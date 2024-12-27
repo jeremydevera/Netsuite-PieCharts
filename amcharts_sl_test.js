@@ -7,7 +7,7 @@ define(['N/file'], function (file) {
         if (context.request.method === 'GET') {
             // Load the HTML file from the File Cabinet
             var htmlFile = file.load({
-                id: 'SuiteScripts/amcharts_piechart.html' // Adjust path as needed
+                id: 'SuiteScripts/amcharts.html' // Adjust path as needed
             });
 
             // Send the content of the HTML file as the response
